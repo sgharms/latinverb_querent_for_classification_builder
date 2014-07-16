@@ -18,9 +18,9 @@ module Linguistics
               private
 
               def eager_load_serialized_object
-                JSON.parse(serialized_verb)
+                JSON.parse(serialized_verb || '{ "error": true }')
               rescue JSON::ParserError => e
-                puts "We were unable to parse JSON for #{@lookup_string} [o:#{o}] [o_sym:#{o_upcase_and_symbolic}].  Please verify your syntax."
+                puts "We were unable to parse JSON for #{@lookup_string}.  Please verify your syntax."
                 raise e
               rescue NameError => e
                 puts "We were unable to find a definition for #{@lookup_string}"
