@@ -1,3 +1,4 @@
+require 'json'
 require 'forwardable'
 require 'linguistics_latin'
 require "latinverb_querent_for_classification_builder/version"
