@@ -10,7 +10,6 @@ module Linguistics
 
             def initialize(lookup_string, passive_perfect_participle, *args)
               @structure = JsonDeserializer.new(lookup_string).revivified_data_structure
-              @original_string = Array(args).first
               @querent = LatinVerb::IrregularQuerent.new(@structure)
             end
 
