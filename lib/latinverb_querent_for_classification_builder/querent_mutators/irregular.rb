@@ -9,7 +9,7 @@ module Linguistics
             attr_reader :querent
 
             def initialize(lookup_string, passive_perfect_participle, *args)
-              @structure = JsonDeserializer.new(lookup_string).revivified_data_structure
+              @structure = IrregularVerbDefinitionConsumer::JsonDeserializer.new(lookup_string).revivified_data_structure
               @querent = LatinVerb::IrregularQuerent.new(@structure)
             end
 

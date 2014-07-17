@@ -1,6 +1,8 @@
 require 'json'
 require 'forwardable'
 require 'linguistics_latin'
+require 'latinverb_irregular_verb_definition_consumer'
+
 require "latinverb_querent_for_classification_builder/version"
 
 require 'latinverb_querent_for_classification_builder/tense_method_definitions/active_voice_imperative_mood_future_tense_methods'
@@ -101,7 +103,6 @@ require 'latinverb_querent_for_classification_builder/querent_factory' # *Regula
 require 'latinverb_querent_for_classification_builder/querent_mutators/irregular'
 require 'latinverb_querent_for_classification_builder/irregular_verb_serialization_retriever'
 require 'latinverb_querent_for_classification_builder/querent_mutators/irregular/supine_inferrer.rb'
-require 'latinverb_querent_for_classification_builder/querent_mutators/irregular/json_deserializer'
 require 'latinverb_querent_for_classification_builder/querent/irregular'
 
 require 'latinverb_querent_for_classification_builder/past_and_perfect_tense_block_eclipser'
