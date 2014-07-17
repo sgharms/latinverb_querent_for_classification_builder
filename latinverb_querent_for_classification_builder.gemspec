@@ -19,6 +19,7 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency("linguistics_latin", "~>0.0.2")
   spec.add_runtime_dependency("linguistics_latin_tense_block")
+  spec.add_runtime_dependency("latinverb_irregular_infinitives_retriever")
 
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
