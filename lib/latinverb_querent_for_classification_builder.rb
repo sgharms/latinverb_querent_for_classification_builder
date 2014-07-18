@@ -101,7 +101,6 @@ require 'latinverb_querent_for_classification_builder/querent/fourth'
 require 'latinverb_querent_for_classification_builder/querent_factory' # *Regular* querents
 
 require 'latinverb_querent_for_classification_builder/querent_mutators/irregular'
-require 'latinverb_querent_for_classification_builder/irregular_verb_serialization_retriever'
 require 'latinverb_querent_for_classification_builder/querent_mutators/irregular/supine_inferrer.rb'
 require 'latinverb_querent_for_classification_builder/querent/irregular'
 
