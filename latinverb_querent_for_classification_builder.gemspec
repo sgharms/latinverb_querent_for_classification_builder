@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "latinverb_querent_for_classification_builder"
   spec.version       = LatinverbQuerentForClassificationBuilder::VERSION
   spec.authors       = ["Steven G. Harms"]
-  spec.email         = ["sgharms@stevengharms.com"]
+  spec.email         = ["steven.harms@gmail.com"]
   spec.summary       = %q{Generate a querent for a verb classification in LatinVerb}
   spec.homepage      = ""
   spec.license       = "MIT"
